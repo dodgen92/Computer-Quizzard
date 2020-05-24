@@ -227,7 +227,7 @@ class Play extends Component {
             });
         }
     }
-
+// save summary  datastate to database
     endGame = () => {
         alert('Quiz has eneded!');
         const { state } = this;
